@@ -1,0 +1,44 @@
+{
+  "id": "3968973",
+  "name": "yixiantong",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "773944",
+      "name": "KTV",
+      "font_class": "ktv",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "2076293",
+      "name": " 酒店",
+      "font_class": "jiudian",
+      "unicode": "e89b",
+      "unicode_decimal": 59547
+    },
+    {
+      "icon_id": "2121721",
+      "name": "景点",
+      "font_class": "jingdian",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5603492",
+      "name": "美食",
+      "font_class": "meishi",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "10492178",
+      "name": "按摩",
+      "font_class": "anmo",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    }
+  ]
+}
