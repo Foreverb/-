@@ -1,5 +1,5 @@
 <template>
-    <div>detial.vue</div>
+    <div class="container">detial.vue</div>
   </template>
   
   <script>
@@ -8,6 +8,6 @@
   }
   </script>
   
-  <style>
+  <style lang="scss" scoped>
   
   </style>

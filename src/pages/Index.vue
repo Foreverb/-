@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div class="iconfont icon-hotel"></div>
     <div class="iconfont icon-ktv"></div>
     <div class="iconfont icon-jingdian"></div>

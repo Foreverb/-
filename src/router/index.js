@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router"
 import Home from "@/pages/Index.vue"
-const routes = [
-    {
+const routes = [{
         path: '/',
         // redirect重定向
         redirect: '/home'
@@ -12,24 +11,28 @@ const routes = [
         component: Home
     },
     {
-        path: '/List',
+        path: '/list',
         name: 'List',
-        component: () => import('@/pages/List.vue')
+        component: () =>
+            import ('@/pages/List.vue')
     },
     {
-        path: '/Detail',
+        path: '/detail',
         name: 'Detail',
-        component: () => import('@/pages/Detail.vue')
+        component: () =>
+            import ('@/pages/Detail.vue')
     },
     {
-        path: '/Search',
+        path: '/search',
         name: 'Search',
-        component: () => import('@/pages/Search.vue')
+        component: () =>
+            import ('@/pages/Search.vue')
     },
     {
-        path: '/City',
+        path: '/city',
         name: 'City',
-        component: () => import('@/pages/City.vue')
+        component: () =>
+            import ('@/pages/City.vue')
     }
 ]
 const router = createRouter({

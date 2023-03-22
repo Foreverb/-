@@ -1,5 +1,5 @@
 <template>
-    <div>city.vue</div>
+    <div class="container">city.vue</div>
   </template>
   
   <script>
@@ -8,6 +8,6 @@
   }
   </script>
   
-  <style>
+  <style lang="scss" scoped>
   
   </style>
