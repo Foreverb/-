@@ -1,5 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router"
-import Home from "@/pages/Index.vue"
+const Home = () => import("@/pages/Index.vue");
+const List = () => import("@/pages/List.vue");
+const Detail = () => import("@/pages/Detail.vue");
+const Search = () => import("@/pages/Search.vue");
+const City = () => import("@/pages/City.vue");
 const routes = [{
         path: '/',
         // redirect重定向
@@ -13,26 +17,22 @@ const routes = [{
     {
         path: '/list',
         name: 'List',
-        component: () =>
-            import ('@/pages/List.vue')
+        component: List
     },
     {
         path: '/detail',
         name: 'Detail',
-        component: () =>
-            import ('@/pages/Detail.vue')
+        component: Detail
     },
     {
         path: '/search',
         name: 'Search',
-        component: () =>
-            import ('@/pages/Search.vue')
+        component: Search
     },
     {
         path: '/city',
         name: 'City',
-        component: () =>
-            import ('@/pages/City.vue')
+        component: City
     }
 ]
 const router = createRouter({
