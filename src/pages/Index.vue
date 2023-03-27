@@ -1,22 +1,18 @@
 <template>
   <div class="container">
-    <div class="iconfont icon-hotel"></div>
-    <div class="iconfont icon-ktv"></div>
-    <div class="iconfont icon-jingdian"></div>
-    <div class="iconfont icon-meishi"></div>
-    <div class="iconfont icon-anmo"></div>
+    <home-header></home-header>
   </div>
 </template>
 
 <script>
+import HomeHeader from 'components/Header/Home.vue';
 export default {
-    name: 'Index'
+    name: 'Index',
+    components: {
+      HomeHeader
+    }
 }
 </script>
 
 <style lang="scss" scoped>
-@import 'styles/mixins.scss';
-div{
-  @include vh-center
-}
 </style>

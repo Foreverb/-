@@ -7,7 +7,7 @@ window.addEventListener('load', function(){
 
 //清除默认事件
 document.documentElement.addEventListener('click', function(e){
-    if( e.touches.length > 1 ) {
+    if( e.touches && e.touches.length > 1 ) {
         e.preventDefault();
     }
 }, false);
