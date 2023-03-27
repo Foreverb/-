@@ -3,7 +3,7 @@
     <router-link to="Search">
         <div class="input">
             <p class="placeholder">
-                <span class="iconfont icon-header-search"></span>
+                <span class="iconfont icon-search"></span>
                 <span class="placeholder-text">{{ placeholderText }}</span>
             </p>
         </div>

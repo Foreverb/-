@@ -1,13 +1,22 @@
 <template>
-    <div class="container">Search.vue</div>
-  </template>
-  
-  <script>
-  export default {
-      name: 'Search'
-  }
-  </script>
-  
-  <style lang="scss" scoped>
-  
-  </style>
+  <div class="container">
+    <common-header :title="title"></common-header>
+  </div>
+</template>
+
+<script>
+import CommonHeader from "components/Header/Common.vue";
+export default {
+  name: "Search",
+  components: {
+    CommonHeader,
+  },
+  data() {
+    return {
+      title: "商家搜索",
+    };
+  },
+};
+</script>
+
+<style lang="scss" scoped></style>

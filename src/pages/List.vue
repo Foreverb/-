@@ -1,13 +1,22 @@
 <template>
-    <div class="container">List.vue</div>
-  </template>
-  
-  <script>
-  export default {
-      name: 'List'
-  }
-  </script>
-  
-  <style lang="scss" scoped>
-  
-  </style>
+  <div class="container">
+    <common-header :title="title"></common-header>
+  </div>
+</template>
+
+<script>
+import CommonHeader from "components/Header/Common.vue";
+export default {
+  name: "List",
+  components: {
+    CommonHeader,
+  },
+  data() {
+    return {
+      title: "列表",
+    };
+  },
+};
+</script>
+
+<style lang="scss" scoped></style>

@@ -2,7 +2,7 @@
     <div class="city">
         <router-link to="City">
             <span class="city-name">{{ cityName }}</span>
-            <span class="iconfont icon-header-arrow"></span>
+            <span class="iconfont icon-arrow-down"></span>
         </router-link>
     </div>
 </template>

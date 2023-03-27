@@ -6,18 +6,46 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "691176",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "1194333",
+      "name": "arrow-down",
+      "font_class": "arrow-down",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "15838525",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "15838561",
+      "name": "arrow-left-bold",
+      "font_class": "arrow-left-bold",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "16110396",
+      "name": "hotel",
+      "font_class": "hotel",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
       "icon_id": "773944",
       "name": "KTV",
       "font_class": "ktv",
       "unicode": "e644",
       "unicode_decimal": 58948
-    },
-    {
-      "icon_id": "2076293",
-      "name": " 酒店",
-      "font_class": "jiudian",
-      "unicode": "e89b",
-      "unicode_decimal": 59547
     },
     {
       "icon_id": "2121721",
