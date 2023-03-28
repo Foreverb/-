@@ -3,7 +3,7 @@
     <span>当前城市：</span>
     <router-link :to="{name: path}">
         <span class="iconfont icon-dingwei"></span>
-        <span class="city">{{ this.cityName }}</span>
+        <span class="city">{{ cityName }}</span>
     </router-link>
   </div>
 </template>
